@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="Cache-Control" content="no-siteapp,no-transform" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="author" content="深圳网站建设公司|中为科技 www.lonwin.net|jungley"/>
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>华厦网络</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/contactUs.css">
+    <link rel="stylesheet" href="css/response.css">
+    <!--[if lte IE 8]><script src="http://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script><![endif]-->
+    <!--[if lte IE 8]><script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="header">
+    <div class="topbar">
+        <div class="wrap w clearfix">
+             <div class="fl text">
+                        <p>中瑞保险——华厦网络共享平台</p>
+                 </div>
+             <div class="fr message"><ul>
+                 <li class="tel">
+                    <p>咨询热线：<span>0755-12345678</span></p> 
+                 </li>
+                 <li class="kf">
+                        <a href="#">客户服务</a>
+                 </li>
+             </ul>
+            </div>
+        </div>     
+    </div>
+    <div class="nav w">
+        <div class="wrap">
+                <div class="logo">
+                    <a href="index.html"><img src="img/images/logo.png" alt=""></a>
+                </div>
+                 <div class="sub-nav">
+                     <ul>
+                         <li><a href="index.html">首页</a></li>
+                         <li><a href="enterHuaxia.html">走进华厦</a></li>
+                         <li><a href="baoxian.html">保险代理</a></li>
+                         <li><a href="classify.html">商品分类</a></li>
+                         <li><a class="active" href="contactUs.html">联系我们</a></li>
+                     </ul>
+                 </div>
+                <div class="search">
+                    <div class="search-bg">
+                        <form action="#">
+                            <input class="input" type="text" value="中瑞保险">
+                            <button class="btn"></button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+            
+    </div>
+    </div>
+    <div class="banner">
+        <div class="banner-img"><img src="img/web/02.png" alt=""></div>
+    </div>
+</div>
+
+   <div class="content">
+       <div class="agency w">
+       <div class="tittle">
+           <h2>走进华厦</h2>
+           <b></b>
+           <p>华厦网络科技有限公司各种类型商品，一应俱全，为客户提供更优质更好的服务</p>
+       </div>
+
+      <div class="contact">
+             <h3>深圳华厦网络销售有限公司</h3>
+            <p class="tel">华厦热线电话</p>
+            <span class="number"><img src="img/images/tel.png" alt=""></span>
+            <p class="where">地址： 深圳市福田区车公庙泰然九路皇冠科技园2栋3B17</p>
+            <p class="fax">传真： 0755-88914061</p>
+
+         
+      </div>
+   </div>
+   <div class="map">
+       <!DOCTYPE html>
+       <html>
+       <head>
+           <meta charset="utf-8">
+           <meta name="keywords" content="高德地图,DIY地图,高德地图生成器">
+           <meta name="description" content="高德地图，DIY地图，自己制作地图，生成自己的高德地图">
+           <title>高德地图 - DIY我的地图</title>
+           <style>
+               body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 960px; min-width: 300px; }
+               .my-map { margin: 0 auto; width: 100%; height: 500px; }
+               .my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+               .my-map .icon-cir { height: 31px; width: 28px; }
+               .my-map .icon-cir-red { background-position: -11px -5px; }
+               .amap-container{height: 100%;}
+           </style>
+       </head>
+       <body>
+       <div id="wrap" class="my-map">
+           <div id="mapContainer"></div>
+       </div>
+       <script src="//webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
+       <script>
+           !function(){
+               var infoWindow, map, level = 17,
+                       center = {lng: 114.02306, lat: 22.533715},
+                       features = [{type: "Marker", name: "深圳华厦网络销售有限公司", desc: "地址：深圳市福田区车公庙泰然九路皇冠科技园2栋3B17", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 114.022915, lat: 22.53319}}];
+
+               function loadFeatures(){
+                   for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
+                       data = features[i];
+                       switch(data.type){
+                           case "Marker":
+                               feature = new AMap.Marker({ map: map, position: new AMap.LngLat(data.lnglat.lng, data.lnglat.lat),
+                                   zIndex: 3, extData: data, offset: new AMap.Pixel(data.offset.x, data.offset.y), title: data.name,
+                                   content: '<div class="icon icon-' + data.icon + ' icon-'+ data.icon +'-' + data.color +'"></div>' });
+                               break;
+                           case "Polyline":
+                               for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+                                   path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+                               }
+                               feature = new AMap.Polyline({ map: map, path: path, extData: data, zIndex: 2,
+                                   strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity });
+                               break;
+                           case "Polygon":
+                               for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+                                   path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+                               }
+                               feature = new AMap.Polygon({ map: map, path: path, extData: data, zIndex: 1,
+                                   strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity,
+                                   fillColor: data.fillColor, fillOpacity: data.fillOpacity });
+                               break;
+                           default: feature = null;
+                       }
+                       if(feature){ AMap.event.addListener(feature, 'click', mapFeatureClick); }
+                   }
+               }
+
+               function mapFeatureClick(e){
+                   if(!infoWindow){ infoWindow = new AMap.InfoWindow({autoMove: true}); }
+                   var extData = e.target.getExtData();
+                   infoWindow.setContent("<h2 style='font-size: 16px;color:#c30a08;margin-bottom: 5px;'>" + extData.name + "</h2><div>" + extData.desc + "</div>");
+                   infoWindow.open(map, e.lnglat);
+               }
+
+               map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level,isOpen:true});
+
+               loadFeatures();
+
+               map.on('complete', function(){
+                   map.plugin(["AMap.ToolBar", "AMap.OverView", "AMap.Scale"], function(){
+                       map.addControl(new AMap.ToolBar);
+                       map.addControl(new AMap.OverView({isOpen: true}));
+                       map.addControl(new AMap.Scale);
+                   });
+               })
+
+           }();
+       </script>
+       </body>
+       </html>
+   </div>
+</div>
+    
+    <div class="footer">
+        <div class="footer-ser  clearfix w">
+            <div class="us">
+                <h4>走进华厦</h4>
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="insurance">
+                <h4>保险代理</h4>
+                <ul>
+                    <li><a href="#">车险</a></li>
+                    <li><a href="#">财险</a></li>
+                    <li><a href="#">寿险</a></li>
+                </ul>
+                
+            </div>
+            <div class="produce">
+                <h4>产品分类</h4>
+                <ul class="fl first">
+                        <li><a href="#">汽车</a></li>
+                        <li><a href="#">游艇</a></li>
+                        <li><a href="#">地产</a></li>
+                        <li><a href="#">机械</a></li>
+                        <li><a href="#">农副产品</a></li>
+                        <li><a href="#">服饰城</a></li>
+                    </ul>
+                    <ul class="fl second">
+                        <li><a href="#">保险代理</a></li>
+                        <li><a href="#">智能数码</a></li>
+                        <li><a href="#">红木家具</a></li>
+                        <li><a href="#">古玩字画</a></li>
+                        <li><a href="#">白酒红酒</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ul>
+
+            </div>
+            <div class="wechat">
+                <h4>关注我们</h4>
+                <div class="code">
+                    <img src="img/images/1_48.jpg" alt="">
+                </div>
+            </div>
+            <div class="about">
+                <h4>关于华厦</h4>
+                <p>深圳华厦网络科技有限公司引进保险代理，一应俱全，为客户提供更优质、更好的服务</p>
+            </div>
+
+        </div>
+        <div class="friendlink w">
+            <h4>友情链接</h4>
+            <div class="link">
+                <a href="#">爱问保险</a>
+                <a href="#">中国平安保险</a>
+                <a href="#">太平洋保险</a>
+                <a href="#">人寿保险</a>
+                <a href="#">爱问保险</a>
+                <a href="#">中国平安保险</a>
+                <a href="#">太平洋保险</a>
+                <a href="#">人寿保险</a>
+                <a href="#">爱问保险</a>
+                <a href="#">中国平安保险</a>
+                <a href="#">太平洋保险</a>
+                <a href="#">人寿保险</a>
+                <a href="#">爱问保险</a>
+                <a href="#">中国平安保险</a>
+                <a href="#">太平洋保险</a>
+                <a href="#">人寿保险</a>
+                <a href="#">爱问保险</a>
+                <a href="#">中国平安保险</a>
+                <a href="#">太平洋保险</a>
+                <a href="#">人寿保险</a>
+            </div>
+        </div>
+        <div class="copyright w ">
+            <p>&copy;Copyright2017&nbsp;&nbsp;&nbsp;深圳华厦网络销售有限公司&nbsp;&nbsp;&nbsp;&nbsp;版权所有 </p>
+        </div>
+    </div>
+
+    <script src="js/holder.min.js"></script>
+
+</body>
+</html>

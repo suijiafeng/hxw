@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* 头部start */
+body{
+    width:100%;
+    font-family: "微软雅黑";
+}
+.w{
+    position: relative;
+    width:1200px;
+    margin:0 auto;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+.header a{
+    text-decoration: none;
+}
+.topbar{
+    width:100%;
+    height:55px;
+    background: #2c3038;
+}
+.header .text p{
+    font-size:20px;
+    color:#f10215;
+    height:55px;
+    line-height: 55px;
+    font-weight: 700;
+
+}
+
+.message{
+    color:#999;
+    font-size: 14px;
+}
+.message li{
+float:left;
+line-height: 55px;
+background-image:url(../img/images/1_01.png);
+background-repeat: no-repeat;
+
+}
+.message li p{
+    padding-left:25px;
+    padding-right:30px;
+}
+
+.message li.tel{
+    background-position: 0 -78px;
+}.message li.kf{
+    background-position: 5px 15px;
+}
+.message li a{
+    display: inline-block;
+    margin-left:30px;
+    color:#999;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+
+}
+
+.nav{  
+    height:100px;
+    background-color: #fff;
+}
+.nav .logo{
+    float:left;
+    height:100px;
+    width:160px;
+    overflow: hidden;
+    margin-right:165px;
+}
+.nav .logo a{
+    display: inline-block;
+    width:100%;
+}
+.sub-nav li{
+    display: inline;
+    margin-right:34px;
+}
+.sub-nav a{
+    display: inline-block;
+    width:70px;
+    height:98px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#333;
+    border-bottom: 2px solid #fff;
+    line-height: 98px;
+    text-align: center;
+}
+.sub-nav a:hover, .sub-nav .active{
+    color:#eb0000;
+    border-bottom: 2px solid red;
+    
+}
+.search{
+    position: absolute;
+    right:0;
+    top:30px;
+}
+.search .search-bg{
+    width:230px;
+    height:35px;
+    background: url(../img/images/1_03.png) no-repeat;
+}
+.search form .input{
+    float:left;
+    padding:0 20px;
+    border:1px solid red;;
+    width:107px;
+    height:33px;
+    color:#808080;
+
+}
+.search form .btn{
+    float:left;
+    width:80px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.banner-img{
+
+}
+/* 头部end */
+
+
+/* 尾部 start */
+.footer{
+    width:100%;
+      background-color: #333;
+  }
+  .footer a{
+      line-height: 30px;
+      font-size:14px;
+      color:#797979;
+  }
+  .footer a:hover{
+      color:#bf1423;
+  }
+  .footer p{
+      line-height: 30px;
+      font-size: 14px;
+      color: #797979;
+  }
+  .footer-ser{
+      padding:30px 0;
+      border-bottom: 1px solid #424242;
+  }
+   .footer-ser h4{
+      line-height: 48px;
+      font-size: 18px;
+      color:#cccccc;
+  
+  }
+  .us, .insurance, .produce, .wechat{
+      float:left;
+      width:16%;
+  }
+  .produce{width:22%}
+  .about{
+      float:right;
+      width:28%;
+  }
+  .produce .first{
+      padding-right:25px;
+  }
+  .wechat .code{
+      width: 116px;
+      height: 120px;
+      overflow: hidden;
+  }
+  
+  .friendlink {
+      padding-bottom: 25px;
+      border-bottom: 1px solid #424242;
+  }
+  .friendlink h4{
+      font-size: 14px;
+      color:#ccc;
+      height: 45px;
+      line-height: 55px;
+  
+  }
+  .friendlink a{
+      font-size: 12px;
+      color:#797979;
+      padding-right:8px;
+      line-height: 30px;
+  }
+  .copyright p{
+      height:75px;
+      line-height: 75px;
+      font-size:18px;
+      text-align: center;
+      color:#8d8d8d;
+  
+  }
+  
+  /* 尾部 end */
+
+  

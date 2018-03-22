@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* date:2017/11/07;*/
+
+/* 保险代理头部 start */
+
+
+.content{
+    margin-top:52px;
+}
+.content a,.content a:hover{
+    text-decoration: none;
+}
+.content .agency{
+    height:100%;
+}
+.content .agency .tittle{
+    /* padding-bottom: 40px; */
+    text-align: center;
+}
+.agency{
+    border-bottom:1px dotted #d5d5d5;
+}
+.agency .tittle h2{
+    font-size: 30px;
+    color:#2c3038;
+    line-height: 58px;
+}
+.agency .tittle b{
+    display: inline-block;
+    background:#f10215;
+    width: 50px;
+    height:4px;
+}
+.agency .tittle p{
+    height: 75px;
+    line-height: 75px;
+    font-size: 16px;
+    color:#848484;
+}
+/* 保险代理头部 end */
+
+.agency .list .t-logo{
+    overflow: hidden;
+    width:188px;
+    height: 128px;
+    border:1px solid #ededed;
+}
+.list{
+    padding:0 20px;
+}
+.list li{
+    height:159px;
+    margin-top:42px;
+    border-bottom:1px solid #ededed;
+    background-color:#fff;
+    position:relative;
+
+}
+.list li:last-child{
+    border-bottom: none;
+}
+
+.list a{
+    display: block;
+}
+.list .t-logo{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.list .t-text{
+    width: 600px;
+    position: absolute;
+    left:250px;
+    top:0;
+}
+.t-text h3{
+    padding: 12px 0;
+    font-size: 22px;
+    color:#333333;
+    line-height: 30px;
+}
+.t-text p{
+    font-size: 14px;
+    line-height: 26px;
+    color:#666666;
+    display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3; overflow: hidden;
+}
+.list .price{
+    position: absolute;
+    right:235px;
+    top:53px;
+    font-size: 20px;
+    color:#cc0000;
+
+}
+
+.list .buy{
+    position: absolute;
+    right:0px;
+    top:50px;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    background:#cc0000;
+    color:#fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 4px;
+    border:none;
+}
+.list .buy:hover{background: #cc3403 }
+/* 分页器 start */
+.pagination{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.pagination-wrap{
+    margin:0 auto;
+    padding:48px 0;
+
+}
+.pagination ul {
+    width: 410px;
+}
+.pagination a{
+    width: 36px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    color:#818181;
+}
+
+.pagination ul li{
+    float:left;
+    margin:0 3px;
+    border:1px solid #e6e6e6;
+    border-radius: 4px;
+
+}
+.pagination li:hover, .pagination .curr{
+    background:#ff374d;
+}
+.pagination li:hover a,.pagination .curr a{
+    color:#fff;
+}
+.pagination ul a.previous, .pagination ul a.next{
+  width:80px;
+}
+
+/* 分页器 end */

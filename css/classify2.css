@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* date:2017/11/07;*/
+
+/* 保险代理头部 start */
+
+
+.content{
+    margin-top:52px;
+}
+.content a,.content a:hover{
+    text-decoration: none;
+}
+.content .agency{
+    height:100%;
+}
+.content .agency .tittle{
+    /* padding-bottom: 40px; */
+    text-align: center;
+}
+/* .agency{
+    /border-bottom:1px dotted #d5d5d5;
+} */
+.agency .tittle h2{
+    font-size: 30px;
+    color:#2c3038;
+    line-height: 58px;
+}
+.agency .tittle b{
+    display: inline-block;
+    background:#f10215;
+    width: 50px;
+    height:4px;
+}
+.agency .tittle p{
+    height: 75px;
+    line-height: 75px;
+    font-size: 16px;
+    color:#848484;
+}
+/* 保险代理头部 end */
+.swiper-container{
+    margin-top:20px;
+}
+.pic-bg{
+    background-color:green;
+    width: 914px;
+    height: 718px;
+    margin:0 auto;
+}
+.pic-bg img{
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-287px;
+    margin-left:-319px;
+}
+.particular{
+    padding-top:50px;
+    text-align: center;
+    height:410px;
+}
+.particular h3{
+    vertical-align: bottom;
+    height: 102px;
+    font-size: 24px;
+    color:#333333;
+    line-height: 170px;
+    background:url(../img/images/icon_car_25.png) no-repeat center 0;
+}
+.s-text{
+    padding-top:25px;
+}
+.particular p{
+    line-height: 26px;
+    width: 924px;
+    font-size: 14px;
+    color:#666666;
+    margin:0 auto;
+}
+
+.gallery-top{
+    width:640px;
+    height: 490px;
+}
+.gallery-thumbs{
+    width: 640px;
+    height: 65px;
+}
+.gallery-thumbs .swiper-wrapper{
+    width:15%;
+    height: 100%;
+}

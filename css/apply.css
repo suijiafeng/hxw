@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* date:2017/11/09;*/
+
+.content{
+    padding:70px 0;
+}
+
+
+.apply li{
+    border-top:2px solid #dedede;
+    border-bottom:1px solid #dedede;
+    float:left;
+    width: 33.33%;
+    height: 147px;
+}
+.apply li.curr{
+    border-top:2px solid #f10215;
+    background:url(../img/web/icon_down.png) no-repeat 190px 105px;
+    background-color:#fff9f9;
+}
+.apply li .icon{width:95px;height:95px;background-position:center;background-repeat: no-repeat;float:left;margin:26px 26px 26px 40px;border-radius: 50%;background-color:#fee5e7}
+.apply li.curr .icon{background-color:#f10215}
+.apply li .icon1{
+    background-image:url(../img/web/h1.png)
+}
+.apply li .icon2{
+    background-image:url(../img/web/h2.png)
+}
+.apply li .icon3{
+    background-image:url(../img/web/h3.png)
+}
+.apply li.curr .icon1{
+    background-image:url(../img/web/b1.png)
+}
+.apply li.curr .icon2{
+    background-image:url(../img/web/b2.png)
+}
+.apply li.curr .icon3{
+    background-image:url(../img/web/b3.png)
+}
+.apply .r-text {
+    margin-top:30px;
+    float:left;
+
+}
+.apply .r-text h3{
+    font-size: 18px;
+    line-height: 36px;
+    color:#333333;
+}
+.apply .r-text p{
+    font-size: 16px;
+    color:#999999;
+}
+.content-main .box-info{
+    padding:50px  0;
+}
+.content-main h3{
+    border-top:1px solid　#dedede;
+    background-color:#fafafa;
+    height:44px;
+}
+.content-main h3 strong{
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    color:#666666;
+    border-bottom:2px solid #f10215;
+    margin-left:38px;
+    padding:8px 0;
+}
+.content-main .box-info .inp1{
+    width: 112px;
+    height: 26px;
+    border:1px solid#ccc;
+    margin-right:25px;
+}
+.content-main .box-info .box-text1{
+    margin-left:80px;
+}
+.content-main .box-info p{
+    font-size: 14px;
+    line-height: 38px;
+}
+.content-main .box-info span{
+    color:#999;
+}
+.content-main .box-info i{
+    margin-left:70px;
+    color:#999;
+    font-style: normal;
+}
+.content-main h3 b{
+    font-style: normal;
+    font-size: 14px;
+    color:#f10215;
+}
+.intent{
+    text-indent:2em;
+}
+.content-main .box-login{
+    position: relative; /*2017.11.13*/
+    width: 680px;
+    height: 120px;
+    border:1px solid #e6e6e6;
+    padding:20px 68px;
+    background-color: #fafafa;
+    margin-left:80px;
+}
+.box-info .box-login .inp2, .box-info .box-login .inp3 {
+    width: 220px;
+    height: 26px;
+    border:1px solid#ccc;
+    margin-right:10px;
+
+}
+.box-login span{
+    line-height: 50px;
+}
+.box-login .btn{
+    width: 120px;
+    height: 28px;
+    background-color:#f10215;
+    border:none;
+    color:#fff;
+    border-radius: 4px;
+}
+.linked{
+    position: absolute; /*2017.11.13*/
+    right:75px;
+    bottom:20px; /*2017.11.13*/
+}
+.linked a{
+    display: inline-block;
+    font-size: 14px;
+    color:#666666;
+    text-decoration: none;
+    height: 25px;
+}
+.linked .wb{
+    padding-left:20px;
+background:url(../img/web/link_03.png) no-repeat;
+   
+}
+.linked .qq{
+    padding-left:20px;
+    background:url(../img/web/link_05.png) no-repeat;
+}
+.linked .zhifubao{
+    padding-left:20px;
+    background:url(../img/web/link_07.png) no-repeat;
+}
+.box-text2{
+    padding-top:36px;
+    padding-left:25px;
+    margin-left:80px;
+}
+.box-text4{
+    padding: 30px 0;
+    margin-left:80px;
+}
+.box-text2 input {
+    width: 250px;
+    height: 26px;
+    border:1px solid#ccc;
+    margin-right:25px;
+    padding:0 5px;
+}
+.box-text2 select{
+    width: 95px;
+    height: 26px;
+    border:1px solid#ccc;
+    margin-right:10px;
+    padding:0 5px;
+}
+.box-text2 .mobile, .box-text2 .email{
+    padding-left:20px;
+    color:#888888;
+}
+.box-info table{
+    width: 942px;
+    height: 160px;
+    border:1px solid #d7d7d7;
+}
+.box-info table th{
+    height: 42px;
+    text-align: center;
+    background-color:#fafafa;
+}
+.box-info .table .data{
+    height:42px;
+    text-align: center;
+}
+.box-info .table .pirce{
+    color:#fd0100;
+    font-weight: 700;
+}
+.box-info .table tr p{
+    color:#c4c4c4;
+    line-height: 30px;
+    margin-left:20px;
+}
+.box-info .table tr .jf{
+    color:#888888;
+}
+.table tr .jf span{
+    display: inline-block;
+    color:#fff;
+    margin-right:10px;
+    background-color:#ff6b7b;
+    line-height: 22px;
+    padding:0 10px;
+}
+.table tr .jf .inner{
+    font-weight: 500;
+}
+.content .next{
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color:#f10215;
+    color:#fff;
+    border:none;
+    width: 142px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+   position: relative;
+   left: 50%;
+   margin-left: -120px;
+   top:50px;
+
+}

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* date:2017/11/07;*/
+
+/* 保险代理头部 start */
+
+.content{
+    margin-top:52px;
+}
+.content a,.content a:hover{
+    text-decoration: none;
+}
+.content .agency{
+    height:100%;
+}
+.content .agency .tittle{
+    /* padding-bottom: 40px; */
+    text-align: center;
+}
+/* .agency{
+    /border-bottom:1px dotted #d5d5d5;
+} */
+.agency .tittle h2{
+    font-size: 30px;
+    color:#2c3038;
+    line-height: 58px;
+}
+.agency .tittle b{
+    display: inline-block;
+    background:#f10215;
+    width: 50px;
+    height:4px;
+}
+.agency .tittle p{
+    height: 75px;
+    line-height: 75px;
+    font-size: 16px;
+    color:#848484;
+}
+/* 保险代理头部 end */
+.details{
+    padding-top:50px;
+}
+.details .hgroup{
+    text-align: center;
+ 
+   
+    padding-bottom: 15px;
+}
+.details .hgroup h3{
+    font-size: 22px;
+    color:#323232;
+    line-height: 54px;
+}
+.details .hgroup h4{
+    font-size: 14px;
+    color:#a9a9a9;
+    line-height: 54px;
+}
+
+.details .t-cont{
+    margin:0 30px;
+    padding-bottom: 75px;
+    border-top: 1px dotted #d5d5d5;
+  
+}
+.details .t-cont  p{
+    font-size: 14px;
+    color:#666666;
+    line-height: 26px;
+    letter-spacing:1px;
+    padding:30px 90px 0;
+}
+.details .t-cont .img{
+    margin:0 auto;width:80%;
+}
+.pagination{
+    height:120px;
+    position: relative;
+}
+.pagination{
+    border-top: 1px solid #d5d5d5;
+    padding-top:30px;
+}
+.pagination ul li a, .pagination ul li{
+    font-size: 14px;
+    color:#737373;
+    line-height: 30px;
+}
+.pagination ul li a:hover{
+    text-decoration: underline;
+    color:#444242;
+}

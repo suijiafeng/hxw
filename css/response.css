@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@media screen and (max-width: 1220px){
+    /*index*/
+    .w,.content .safe-info,.partner-container{width:960px;}
+    .nav .logo{margin-right: 40px;}
+    .sub-nav li{margin-right: 30px;}
+    .content h2{font-size: 26px;}
+    .content .goods li{width:250px;}
+    .content .goods p{padding-right: 30px;}
+    .goods-container{width:710px;}
+    .goods-container .bd li{width:218px;margin-right: 28px;}
+    .goods-container a{height:190px;}
+    .goods-container a h3{top:130px;font-size: 16px;}
+    .content .safe-pic li{width:300px;padding-right: 30px;}
+    .content .safe-pic a{height:210px;}
+    .content .bg{top:150px;}
+    .safe li:hover .bg{padding-top: 20px}
+    .content .news li{width:296px;}
+    .content .news .wrap-pic{height:160px;}
+    .content .news h3{padding-top: 20px;}
+    .partner .bd li{width:160px;height:90px;}
+    .partner .bd li a{height:88px;}
+    /*enterHuaxia*/
+    .content .introduce .i-img{width:400px;height:380px;}
+    .content .introduce .i-text{left:196px;}
+    /*baoxian*/
+    .agency .pic .wrap-pic{height:180px}
+    .agency .table li{width:210px;}
+    .agency .table .timg{height:203px;}
+    .list .t-text{width:500px;left:210px;}
+    .list .price{right:140px;}
+    .list .buy{width:100px;line-height: 36px;height:36px;font-size: 16px;}
+    .apply li{height:120px;}
+    .apply .r-text p{font-size: 14px;}
+    .apply .r-text{margin-top: 22px;}
+    .apply li.curr{background-position:180px 90px;}
+    .apply li .icon{width:70px;height:70px;margin:20px;background-size:50%}
+    .box-info table{width:880px;}
+    /*classify*/
+    .medium  li{}
+    .medium .item-logo{width:260px;height:285px;}
+    .medium .item-text{margin-left:260px;height:285px;}
+    .medium .item-text h3{}
+    .medium .item-text .btn{margin-top: 17px;}
+    /*news*/
+    .list .date{width:110px;}
+    .news_list .t-logo{left:110px;}
+    .news_list .t-text{left:350px;width:410px;}
+    .details .t-cont  p{padding:20px 0 0}
+}
+@media screen and (max-width: 960px){
+    .w,.content .safe-info,.partner-container{width:88%;}
+    .goods .i-text, .sub-nav, .us, .insurance,.produce, .about, .friendlink{
+        display: none;
+    }
+    .goods-container .center{
+        display: block;
+    }
+    .search{
+        right:85px;
+    }
+     /* .nav .logo{margin-right: 20px;}
+    .sub-nav li{margin-right: 30px;}
+    .content h2{font-size: 26px;}
+    .content .goods li{width:250px;}
+    .content .goods p{padding-right: 30px;}
+    .goods-container{width:710px;}
+    .goods-container .bd li{width:218px;margin-right: 28px;}
+    .goods-container a{height:190px;}
+    .goods-container a h3{top:130px;font-size: 16px;}
+    .content .safe-pic li{width:300px;padding-right: 30px;}
+    .content .safe-pic a{height:210px;}
+    .content .bg{top:150px;}
+    .safe li:hover .bg{padding-top: 20px}
+    .content .news li{width:296px;}
+    .content .news .wrap-pic{height:160px;}
+    .content .news h3{padding-top: 20px;}
+    .partner .bd li{width:160px;height:90px;}
+    .partner .bd li a{height:88px;}  */
+    .content .safe-info li{
+        float:none;
+        width: 100%;
+        height:150px;
+    }
+    .footer-ser {
+        padding:5px 0;
+    }
+    .wechat{
+        width:100%;
+    }
+    .copyright p{
+        line-height: 1.5;
+        height:100%;
+    }
+
+}

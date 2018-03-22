@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* date:2017/11/07;*/
+
+/* 保险代理头部 start */
+
+.content{
+    margin-top:52px;
+}
+.content a,.content a:hover{
+    text-decoration: none;
+}
+.content .agency{
+    height:100%;
+}
+.content .agency .tittle{
+    /* padding-bottom: 40px; */
+    text-align: center;
+}
+.agency{
+    /* border-bottom:1px dotted #d5d5d5; */
+}
+.agency .tittle h2{
+    font-size: 30px;
+    color:#2c3038;
+    line-height: 58px;
+}
+.agency .tittle b{
+    display: inline-block;
+    background:#f10215;
+    width: 50px;
+    height:4px;
+}
+.agency .tittle p{
+    height: 75px;
+    line-height: 75px;
+    font-size: 16px;
+    color:#848484;
+}
+/* 保险代理头部 end */
+
+.agency .list .t-logo{
+    overflow: hidden;
+    width:216px;
+    height: 146px;
+    border:1px solid #ededed;
+}
+
+.list{
+    padding-top:80px;
+}
+.list .date{
+    width: 152px;
+    height: 130px;
+}
+.list .date span, .list .date strong{
+    display: block;
+}
+.date strong{
+    padding-top:30px;
+    font-size: 30px;
+    color:#5e5d5d;
+    line-height: 40px;
+}
+.list li:hover strong{
+    color:#e52f2f;
+}
+.date span{
+    font-size:14px;
+    color:#5e5d5d;
+    line-height: 25px;
+}
+.list li{
+    height:159px;
+    padding-top:42px;
+    /* border-bottom:1px solid #ededed; */
+    background-color:#fff;
+
+}
+.list li:hover{
+    background-color:#ebeef0;
+}
+.list li:last-child{
+    border-bottom: none;
+}
+
+.list a{
+    display: block;
+    position: relative;
+}
+.list .t-logo{
+    position: absolute;
+    left:152px;
+    top:0;
+}
+.list .t-text{
+    width: 535px;
+    position: absolute;
+    left:444px;
+    top:0;
+}
+.t-text h3{
+    padding: 12px 0;
+    font-size: 22px;
+    color:#333333;
+    line-height: 30px;
+}
+.list li:hover h3{
+    color:#e52f2f;
+}
+.t-text p{
+    font-size: 14px;
+    line-height: 26px;
+    color:#666666;
+    display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3; overflow: hidden;
+}
+.list .price{
+    position: absolute;
+    right:235px;
+    top:60px;
+    font-size: 20px;
+    color:#cc0000;
+
+}
+
+.list .button{
+    position: absolute;
+    top:45px;
+    right:0;
+    overflow: hidden;
+    width:178px;
+    height: 40px;
+    background:#e52f2f url(../img/images/button-1.png ) no-repeat;
+    background-position-x: -202px;
+    transition: all .4s;
+    -moz-transition: all .4s; /* Firefox 4 */
+    -webkit-transition: all .4s; /* Safari 和 Chrome */
+    -o-transition: all .4s; /* Opera */
+}
+.list li:hover .button{
+   background-position-x: 4px
+}
+
+.pagination{
+    height:175px;
+    position: relative;
+
+}
+.pagination ul{
+    position: absolute;
+    right:0;
+    bottom:60px;
+    padding-right:20px;
+}
+.pagination ul li{
+    float:left;
+    background:#f8f8f8;
+    width: 44px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    margin-left:3px;
+    position: relative;
+    top:0;
+}
+.pagination ul li:hover{
+    background:#dc3838;
+    position: relative;
+    top:2px;
+}
+.pagination li a{
+    color:#666666;
+}
+.pagination li:hover a{
+    color:#fff;
+}
